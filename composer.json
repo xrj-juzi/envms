@@ -1,0 +1,23 @@
+{
+name: "xrj-juzi/envms",
+type: "library",
+description: "a clone of envms/fluentpdo",
+keywords: [
+"map"
+],
+license: "MIT",
+authors: [
+{
+name: "xrj",
+email: "xrjsdfg@qq.com"
+}
+],
+require: {
+php: ">=7.0.0"
+},
+	"autoload": {
+		"psr-4": {
+			"Envms\\FluentPDO\\": "src/"
+		}
+	}
+}
